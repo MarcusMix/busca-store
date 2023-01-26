@@ -1,16 +1,16 @@
 @font-face {
   font-family: SecularOne-Regular;
-  src: url('/fonts/SecularOne-Regular.ttf')
+  src: url('../fonts/SecularOne-Regular.ttf')
 }
 
 @font-face {
   font-family: BrickSans-Bold;
-  src: url('/fonts/BrickSans-Bold.otf') format('opentype');
+  src: url('../fonts/BrickSans-Bold.otf') format('opentype');
 }
 
 @font-face {
   font-family: GlacialIndifference-Regular;
-  src: url('/fonts/GlacialIndifference-Regular.otf') format('opentype');
+  src: url('../fonts/GlacialIndifference-Regular.otf') format('opentype');
 }
 
 :root {
