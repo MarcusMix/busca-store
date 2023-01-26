@@ -1,6 +1,6 @@
 @font-face {
   font-family: SecularOne-Regular;
-  src: url('../fonts/SecularOne-Regular.ttf')
+  src: url('../fonts/SecularOne-Regular.ttf') format('truetype');
 }
 
 @font-face {
