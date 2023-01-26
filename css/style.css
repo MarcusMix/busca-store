@@ -1,0 +1,178 @@
+@font-face {
+  font-family: SecularOne-Regular;
+  src: url('/fonts/SecularOne-Regular.ttf')
+}
+
+@font-face {
+  font-family: BrickSans-Bold;
+  src: url('/fonts/BrickSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: GlacialIndifference-Regular;
+  src: url('/fonts/GlacialIndifference-Regular.otf') format('opentype');
+}
+
+:root {
+  --cor-roxo: #a25cff;
+  --cor-verde: #3ac200;
+  --cor-vermelho: rgb(177, 65, 65);
+  --cor-branco: #cfcfcf;
+  --cor-preto: #000;
+  --background-roxo: #46157eaf;
+  --background-dark: #05162b;
+  --background-verde: #75cd4d;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-dark);
+  overflow-x: hidden;
+}
+
+.text-white,
+.nav-link,
+.dropdown-item {
+  color: #fff;
+}
+
+section {
+  width: 1050px;
+  margin: auto;
+}
+
+.inicio p {
+  color: #fff;
+  font-family: GlacialIndifference-Regular;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.apresentacao {
+  padding: 10px;
+  margin: 0px;
+}
+
+.outros {
+  padding: 50px;
+}
+
+.icon {
+  color: var(--cor-branco);
+}
+
+.btn {
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.obs {
+  font-size: 20px;
+  text-align: center;
+  color: var(--cor-branco);
+  padding: auto;
+  margin: 40px;
+}
+
+h1 {
+  font-family: BrickSans-Bold;
+  font-size: 100px;
+  text-align: center;
+  color: var(--cor-branco);
+}
+
+h2 {
+  font-family: BrickSans-Bold;
+  font-size: 80px;
+  text-align: center;
+  color: var(--cor-roxo);
+}
+
+h3 {
+  font-family: Poppins;
+  font-size: 40px;
+  text-align: center;
+  color: var(--cor-branco);
+}
+
+p {
+  text-align: center;
+  color: var(--cor-preto);
+}
+
+h5 {
+  text-align: center;
+}
+
+.fa-brands {
+  color: var(--cor-branco);
+  padding: 20px;
+}
+
+.inicio p {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: auto;
+}
+
+.container > div {
+    flex: 1 2 500px;
+    margin: 10px;
+}
+
+.container p {
+  color: var(--cor-branco);
+  text-align: center;
+  margin: 0 20%;
+  padding: 20px;
+}
+
+footer {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  background: var(--background-roxo);
+  color: var(--cor-branco);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+footer p {
+  color: var(--cor-preto);
+}
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 60px;
+    margin: auto;
+  }
+
+  h2 {
+    font-size: 40px;
+    margin: auto;
+  }
+
+  .inicio p {
+    font-size: 20px;
+  }
+
+  section {
+    width: 350px;
+  }
+
+}
